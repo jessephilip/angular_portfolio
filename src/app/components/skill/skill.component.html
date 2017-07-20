@@ -5,6 +5,10 @@
   (mouseenter)="hover = true"
   (mouseleave)="hover = false">
   <div
-    [class]="icon"></div>
-  <p>{{ text }}</p>
+    [class]="icon"
+    [ngClass]="{'pop' : hover}"></div>
+  <p
+    [ngClass]="{'pop' : hover}">
+    {{ text }}
+  </p>
 </article>

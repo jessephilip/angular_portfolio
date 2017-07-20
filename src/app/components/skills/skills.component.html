@@ -1,0 +1,12 @@
+ <app-skill
+  *ngFor="let skill of skills"
+  [icon]="skill.icon"
+  [text]="skill.text"
+  [use]="skill.use">
+</app-skill>
+<hr>
+<app-skill
+  [icon]="'devicons devicons-code'"
+  [text]="'Web Skills'"
+  [use]="true">
+</app-skill>

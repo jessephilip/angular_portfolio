@@ -13,13 +13,22 @@
   padding: 1vh 1vw;
   transition: all 0.2s;
 
-  &:hover {
-    transform: scale(1.1);
-  }
-
   div {
     font-size: 6em;
   }
+
+  p {
+    letter-spacing: 1px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+/// Multiuse Classes ///
+.pop {
+  text-shadow: 1px 1px 3px #999; // use this shadow on hover for additional pop out
 }
 
 /// COLOR CLASSES ///
