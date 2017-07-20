@@ -1,0 +1,185 @@
+@import '../../../styles.scss';
+
+.skillIcon {
+  align-items: center;
+  // border: 1px solid #ddd;
+  border-radius: 20px 0 20px 0;
+  box-shadow: 2px 2px 5px #999; // use this for individual cards
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1vh 1vw;
+  padding: 1vh 1vw;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  div {
+    font-size: 6em;
+  }
+}
+
+/// COLOR CLASSES ///
+
+.android {
+  background-color: $android;
+  color: white;
+}
+
+.angular {
+  background-color: $angular;
+  color: white;
+}
+
+.apple {
+  background-color: $apple;
+  color: white;
+}
+
+.bitbucket {
+  background-color: $bitbucket;
+  color: white;
+}
+
+.bootstrap {
+  background-color: $bootstrap;
+  color: white;
+}
+
+.codepen {
+  background-color: $codepen;
+  color: white;
+
+}
+.css {
+  background-color: $css;
+  color: white;
+}
+
+.firebase {
+  background-color: $firebase;
+  color: white;
+}
+
+.git {
+  background-color: $git;
+  color: white;
+}
+
+.github {
+  background-color: $github;
+  color: white;
+}
+
+.grunt {
+  background-color: $grunt;
+  color: white;
+}
+
+.gulp {
+  background-color: $gulp;
+  color: white;
+}
+
+.heroku {
+  background-color: $heroku;
+  color: white;
+}
+
+.html {
+  background-color: $html;
+  color: white;
+}
+
+.javascript {
+  background-color: $javascript;
+  color: white;
+}
+
+.java{
+  background-color: $java;
+  color: white;
+}
+
+.jira {
+  background-color: $jira;
+  color: white;
+}
+
+.jquery {
+  background-color: $jquery;
+  color: white;
+}
+
+.less {
+  background-color: $less;
+  color: white;
+}
+
+.linux {
+  background-color: $linux;
+  color: white;
+}
+
+.materializecss {
+  background-color: $materializecss;
+  color: white;
+}
+
+.mongodb {
+  background-color: $mongodb;
+  color: white;
+}
+
+.mysql {
+  background-color: $mysql;
+  color: white;
+}
+
+.nodejs {
+  background-color: $nodejs;
+  color: white;
+}
+
+.npm {
+  background-color: $npm;
+  color: white;
+}
+
+.php {
+  background-color: $php;
+  color: white;
+}
+
+.python {
+  background-color: $python;
+  color: white;
+}
+
+.react {
+  background-color: $react;
+  color: white;
+}
+
+.ruby {
+  background-color: $ruby;
+  color: white;
+}
+
+.sass {
+  background-color: $sass;
+  color: white;
+}
+
+.trello {
+  background-color: $trello;
+  color: white;
+}
+
+.windows {
+  background-color: $windows;
+  color: white;
+}

@@ -1,0 +1,10 @@
+<article
+  *ngIf="use"
+  class="skillIcon"
+  [ngClass]="hover ? text.toLowerCase() : ''"
+  (mouseenter)="hover = true"
+  (mouseleave)="hover = false">
+  <div
+    [class]="icon"></div>
+  <p>{{ text }}</p>
+</article>
