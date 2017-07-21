@@ -1,5 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700|Pathway+Gothic+One');
+
+html, body {
+  background: #3c3b3f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #3c3b3f, #605c3c); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3c3b3f, #605c3c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100vw;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+app-footer {
+  bottom: 0;
+  display: flex;
+  height: 15%;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
 /* COLORS */
 $android: #a4c639;
 $angular: #dd0031;
